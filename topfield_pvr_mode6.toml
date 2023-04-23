@@ -1,0 +1,92 @@
+#Topfield PVR 'Mode 6' Remote Control
+#Created January 2023.
+#Acquired from a TP850 RCU.
+#Acquired using a OVU4003/00 - Media Center Ed. eHome Infrared Remote Transceiver
+#Acquired with ir-keytable v1.20.0 on LibreELEC v10.0.3
+#Some keys have no direct match so a best guess was made.
+[[protocols]]
+name = "Topfield Mode 6"
+protocol = "nec"
+variant = "necx"
+[protocols.scancodes]
+
+0x4ff0a = "KEY_POWER"
+0x4ff0c = "KEY_MUTE"
+
+0x4ff11 = "KEY_1"
+0x4ff12 = "KEY_2"
+0x4ff13 = "KEY_3"
+
+0x4ff14 = "KEY_4"
+0x4ff15 = "KEY_5"
+0x4ff16 = "KEY_6"
+
+0x4ff17 = "KEY_7"
+0x4ff18 = "KEY_8"
+0x4ff19 = "KEY_9"
+
+0x4ff1e = "KEY_REDO" #RECALL (previous service) on RCU
+0x4ff10 = "KEY_0"
+0x4ff1d = "KEY_INFO"
+
+0x4ff57 = "KEY_VOLUMEUP"
+0x4ff58 = "KEY_VOLUMEDOWN"
+
+0x4ff00 = "KEY_UP" #P+ on TP013
+0x4ff01 = "KEY_DOWN" #P- on TP013
+0x4ff02 = "KEY_RIGHT" #V+ on TP013
+0x4ff03 = "KEY_LEFT" #V- on TP013
+0x4ff1f = "KEY_OK"
+
+0x4ff55 = "KEY_CHANNELUP"
+0x4ff56 = "KEY_CHANNELDOWN"
+
+0x4ff1a = "KEY_MENU"
+0x4ff1b = "KEY_EPG"
+0x4ff51 = "KEY_FILE" #Archive on TP013
+
+0x4ff1c = "KEY_EXIT"
+
+0x4ff0b = "KEY_RED"
+0x4ff0d = "KEY_GREEN"
+0x4ff0e = "KEY_YELLOW"
+0x4ff0f = "KEY_BLUE"
+
+
+0x4ff07 = "KEY_SUBTITLE"
+0x4ff47 = "KEY_TEXT" #Teletext on RCU
+0x4ff05 = "KEY_AUDIO" #Audio Track on RCU, could also look like KEY_HELP
+
+0x4ff42 = "KEY_VIDEO" #VFormat on RCU
+0x4ff43 = "KEY_ASPECT_RATIO"
+0x4ff44 = "KEY_SLEEP"
+0x4ff04 = "KEY_TV" #TV-Radio on RCU
+
+0x4ff4b = "KEY_RECORD"
+0x4ff4a = "KEY_STOP"
+0x4ff5e = "KEY_SAT" #S within a circle on TP800
+
+
+0x4ff45 = "KEY_REWIND"
+0x4ff06 = "KEY_PAUSE"
+0x4ff46 = "KEY_PLAY"
+0x4ff48 = "KEY_FASTFORWARD"
+
+0x4ff50 = "KEY_PREVIOUS"
+0x4ff49 = "KEY_SLOW"
+0x4ff4c = "KEY_AB" #Also White on TP307
+0x4ff52 = "KEY_NEXT"
+
+0x4ff08 = "KEY_AUX" #Not used by Topfield 7160 firmware
+
+
+
+
+
+
+
+0x4ff70 = "KEY_EJECTCD"
+0x4ff71 = "KEY_TITLE" #Title Menu on TP800
+0x4ff72 = "KEY_D" #Disc Menu on TP800
+0x4ff40 = "KEY_P" #Portal (Asterix) on TP800
+0x4ff65 = "KEY_APPSELECT"

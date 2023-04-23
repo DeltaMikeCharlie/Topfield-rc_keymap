@@ -1,0 +1,87 @@
+#Topfield PVR 'Mode 1a' Remote Control
+#Created January 2023.
+#Acquired from a TP013 RCU in 'Mode 1' (POWER+1).
+#Note: ‘Mode 1’ and ‘Mode 1a’ have some mutually contradictory key mappings.
+#Acquired using a OVU4003/00 - Media Center Ed. eHome Infrared Remote Transceiver
+#Acquired with ir-keytable v1.20.0 on LibreELEC v10.0.3
+#Some keys have no direct match so a best guess was made.
+[[protocols]]
+name = "Topfield Mode 1a"
+protocol = "nec"
+variant = "necx"
+[protocols.scancodes]
+
+0x2340a = "KEY_POWER"
+0x2340c = "KEY_MUTE"
+
+0x23411 = "KEY_1"
+0x23412 = "KEY_2"
+0x23413 = "KEY_3"
+
+0x23414 = "KEY_4"
+0x23415 = "KEY_5"
+0x23416 = "KEY_6"
+
+0x23417 = "KEY_7"
+0x23418 = "KEY_8"
+0x23419 = "KEY_9"
+
+0x2341e = "KEY_REDO" #RECALL (previous service) on RCU
+0x23410 = "KEY_0"
+0x2341d = "KEY_INFO"
+
+0x23402 = "KEY_VOLUMEUP"
+0x23403 = "KEY_VOLUMEDOWN"
+
+
+
+
+
+0x2341f = "KEY_OK"
+
+0x23400 = "KEY_CHANNELUP"
+0x23401 = "KEY_CHANNELDOWN"
+
+0x2341a = "KEY_MENU"
+0x2341b = "KEY_EPG"
+0x23451 = "KEY_FILE" #Archive on TP013
+
+0x2341c = "KEY_EXIT"
+
+0x2344d = "KEY_RED"
+0x2340d = "KEY_GREEN"
+0x2340e = "KEY_YELLOW"
+0x2340f = "KEY_BLUE"
+
+
+0x23407 = "KEY_SUBTITLE"
+0x23447 = "KEY_TEXT" #Teletext on RCU
+0x23405 = "KEY_AUDIO" #Audio Track on RCU, could also look like KEY_HELP
+
+
+
+0x23444 = "KEY_SLEEP"
+0x23404 = "KEY_TV" #TV-Radio on RCU
+
+0x2344b = "KEY_RECORD"
+0x2344a = "KEY_STOP"
+0x2345e = "KEY_SAT"
+0x23440 = "KEY_M" #2460 'M' switch display DVB->Composite->Component
+
+0x23445 = "KEY_REWIND"
+0x23406 = "KEY_PAUSE"
+0x23446 = "KEY_PLAY"
+0x23448 = "KEY_FASTFORWARD"
+
+0x23450 = "KEY_PREVIOUS"
+0x23449 = "KEY_SLOW"
+0x2344c = "KEY_AB" #Also White on TP307
+0x23452 = "KEY_NEXT"
+
+
+0x23409 = "KEY_FAVORITES"
+
+
+0x23443 = "KEY_U" #UHF on TP013 RCU
+0x23408 = "KEY_T" #TV/STB on TP013 RCU
+0x23442 = "KEY_N" #N/P on TP013 RCU

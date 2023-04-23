@@ -1,0 +1,86 @@
+#Topfield PVR 'Mode 5' Remote Control
+#Created January 2023.
+#Acquired from a TP501 RCU that was supplied with a TRF-2460 PVR.
+#Acquired using a OVU4003/00 - Media Center Ed. eHome Infrared Remote Transceiver
+#Acquired with ir-keytable v1.20.0 on LibreELEC v10.0.3
+#Some keys have no direct match so a best guess was made.
+[[protocols]]
+name = "Topfield Mode 5"
+protocol = "nec"
+variant = "necx"
+[protocols.scancodes]
+
+0x50010a = "KEY_POWER"
+0x50010c = "KEY_MUTE"
+
+0x500111 = "KEY_1"
+0x500112 = "KEY_2"
+0x500113 = "KEY_3"
+
+0x500114 = "KEY_4"
+0x500115 = "KEY_5"
+0x500116 = "KEY_6"
+
+0x500117 = "KEY_7"
+0x500118 = "KEY_8"
+0x500119 = "KEY_9"
+
+0x50011e = "KEY_REDO" #RECALL (previous service) on RCU
+0x500110 = "KEY_0"
+0x50011d = "KEY_INFO"
+
+0x500163 = "KEY_VOLUMEUP"
+0x500164 = "KEY_VOLUMEDOWN"
+
+0x500100 = "KEY_UP" #P+ on TP013
+0x500101 = "KEY_DOWN" #P- on TP013
+0x500102 = "KEY_RIGHT" #V+ on TP013
+0x500103 = "KEY_LEFT" #V- on TP013
+0x50011f = "KEY_OK"
+
+0x500161 = "KEY_CHANNELUP"
+0x500162 = "KEY_CHANNELDOWN"
+
+0x50011a = "KEY_MENU"
+0x50011b = "KEY_EPG"
+0x500151 = "KEY_FILE" #Archive on TP013
+
+0x50011c = "KEY_EXIT"
+
+0x50014d = "KEY_RED"
+0x50010d = "KEY_GREEN"
+0x50010e = "KEY_YELLOW"
+0x50010f = "KEY_BLUE"
+
+0x500165 = "KEY_OPTION"
+0x500107 = "KEY_SUBTITLE"
+0x500147 = "KEY_TEXT" #Teletext on RCU
+0x500105 = "KEY_AUDIO" #Audio Track on RCU, could also look like KEY_HELP
+
+0x500142 = "KEY_VIDEO" #VFormat on RCU
+0x500143 = "KEY_ASPECT_RATIO"
+0x500144 = "KEY_SLEEP"
+0x500104 = "KEY_TV" #TV-Radio on RCU
+
+0x50014b = "KEY_RECORD"
+0x50014a = "KEY_STOP"
+0x50015e = "KEY_SAT"
+0x500140 = "KEY_M" #2460 'M' switch display DVB->Composite->Component
+
+0x500145 = "KEY_REWIND"
+0x500106 = "KEY_PAUSE"
+0x500146 = "KEY_PLAY"
+0x500148 = "KEY_FASTFORWARD"
+
+0x500150 = "KEY_PREVIOUS"
+0x500149 = "KEY_SLOW"
+0x50014c = "KEY_AB" #Also White on TP307
+0x500152 = "KEY_NEXT"
+
+
+
+
+
+
+
+
